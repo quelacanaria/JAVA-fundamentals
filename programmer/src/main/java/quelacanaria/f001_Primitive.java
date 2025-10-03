@@ -20,17 +20,17 @@ public class f001_Primitive {
         int numberStudents = 50;
         double price = 500_000.00;
         char remarks = 'A';
-        boolean pass = true;
+        boolean isPass = true;
         String name = "Sarah Discaya";
         String luxuryCar = "Bently Bentayga";
         String passed = "";
-        if(pass == true){
+        if(isPass == true){
             passed = "Pass";
         }else{
             passed = "passed away";
         }
 
-        System.out.println("\n"+name + " was once a top " + topNumber + " n her class of over "
+        System.out.println("\n"+name + " was once a top " + topNumber + " in her class of over "
                 + numberStudents + " . Out of those, only 30 managed to "+ passed + " and she earned an impressive " + remarks + "+ "
                 + grade + " \nAs a reward for her achievement, her father gave her $" + price
                 + " to buy her dream car a " + luxuryCar);
