@@ -8,12 +8,15 @@ public class f004_ifElse {
         int age;
         String name;
         Scanner scan = new Scanner(System.in);
-
+        boolean isStudent;
         System.out.print("Enter your Name: ");
         name = scan.nextLine();
 
         System.out.print("Enter your Age: ");
         age = scan.nextInt();
+
+        System.out.print("Are you a student (true or false) ");
+        isStudent = scan.nextBoolean();
 
         //Name ifElse
         if(name.isEmpty()){
@@ -39,6 +42,11 @@ public class f004_ifElse {
             System.out.println("You're not Legal Age now");
         }
 
+        if(isStudent){
+            System.out.print("Oh you're working now impressive");
+        }else{
+            System.out.print("Wow that's nice ");
+        }
         scan.close();
     }
 
