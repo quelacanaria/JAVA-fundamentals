@@ -10,7 +10,7 @@ public class f013_activity {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter your new username: ");
+        System.out.print("Enter your new username: ");
         username = scan.nextLine();
 
         if(username.length() < 4 || username.length() > 12){
