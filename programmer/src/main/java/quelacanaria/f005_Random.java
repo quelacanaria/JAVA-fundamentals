@@ -1,7 +1,7 @@
 package quelacanaria;
 
 import java.util.Random;
-
+//f015
 public class f005_Random {
 
     public static void main(String[] args) {
