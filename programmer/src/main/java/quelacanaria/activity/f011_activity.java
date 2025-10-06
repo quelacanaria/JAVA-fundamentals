@@ -18,8 +18,10 @@ public class f011_activity {
         System.out.print("Convert to Celsius or Fahrenheit (C or F): ");
         unit = scan.next().toUpperCase();//METHOD CHAINING
 
-        System.out.println((unit.equals("C")) ? (temp - 32) * 5/9 : (temp * 5/9) + 32);
-        System.out.println("");
+        newTemp = (unit.equals("C")) ? (temp - 32) * 5/9 : (temp * 5/9) + 32;
+
+        System.out.printf("%.1f°%s", newTemp , unit);
+
         scan.close();
 
     }
