@@ -12,21 +12,31 @@ public class f015_activity {
         Scanner scan = new Scanner(System.in);
 
         int guess;
-        int attemps = 0;
+        int attemps = 1;
         int min = 1;
         int max = 10;
+        int numRandom = random.nextInt(min, max);
+
 
         do{
-            System.out.println("Number Guessing game");
-            System.out.print("Guess a number 1-10: ");
 
+            System.out.print("Enter a number: ");
             guess = scan.nextInt();
-            System.out.println("random number: " + random.nextInt(min,max));
+
+            if(guess > numRandom){
+                System.out.println("lower!!");
+            }else if(guess < numRandom){
+                System.out.println("higher!!");
+            }else{
+                System.out.println("The random number is: " + numRandom);
+                System.out.println("Woah your guess was right!! ");
+            }
+            System.out.println("attempts: " + attemps++);
+        }while(guess != numRandom);
+
+        System.out.println("You win!!");
 
 
-        }while(guess != random.nextInt(min,max));
-
-        System.out.println("Congrats you win!!");
 
 
     }
