@@ -5,7 +5,7 @@ public class f019_overloadedMethods {
         //methods that share the same name but different parameters
 
         System.out.println(add(2,2,10));
-        System.out.println(bakePizza("flat bread "));
+        System.out.println(bakePizza("flat bread ", "mozzarella", "pepperoni"));
 
     }
     static double add(int a, int b){
@@ -16,5 +16,11 @@ public class f019_overloadedMethods {
     }
     static String bakePizza(String bread){
         return bread + "pizza";
+    }
+    static String bakePizza(String bread, String cheese){
+        return cheese + " " + bread + "pizza";
+    }
+    static String bakePizza(String bread, String cheese, String topping){
+        return topping + " " + cheese + " " + bread + "pizza";
     }
 }
