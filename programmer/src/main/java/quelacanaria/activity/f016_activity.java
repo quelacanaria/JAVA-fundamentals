@@ -32,7 +32,7 @@ public class f016_activity {
 
             case 1 -> showBalance(balance);
             case 2 -> balance += deposit();
-            case 3 -> System.out.println("WITHDRAW");
+            case 3 -> balance -= withdraw(balance);
             case 4 -> isRunning = false;
             default -> System.out.println("Invalid choice");
 
@@ -68,5 +68,28 @@ public class f016_activity {
 
         }
 
+    }
+
+    static double withdraw(double balance){
+        double withdraw;
+
+        System.out.print("Enter an amount to withdraw: ");
+        withdraw = scan.nextDouble();
+
+        if(withdraw < 0){
+            System.out.println("Withdraw can't be negative zero");
+            return 0;
+        }else {
+
+            if (withdraw > balance){
+                System.out.println("You can't withdraw");
+
+                return 0;
+
+            }else {
+                return withdraw;
+            }
+
+        }
     }
 }
