@@ -64,6 +64,9 @@ public class f016_activity {
 
         }else{
 
+            System.out.println("***************");
+            System.out.println("Transaction Completed!!");
+            System.out.println("You deposit an amount of " + amount);
             return amount;
 
         }
@@ -82,11 +85,14 @@ public class f016_activity {
         }else {
 
             if (withdraw > balance){
-                System.out.println("You can't withdraw");
+                System.out.println("Insufficient FUNDS!!");
 
                 return 0;
 
             }else {
+                System.out.println("***************");
+                System.out.println("Transaction Completed!!");
+                System.out.println("you withdrawn an amount of " + withdraw);
                 return withdraw;
             }
 
