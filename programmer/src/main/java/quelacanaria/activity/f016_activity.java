@@ -31,7 +31,7 @@ public class f016_activity {
         switch(choice){
 
             case 1 -> showBalance(balance);
-            case 2 -> System.out.println("DEPOSIT");
+            case 2 -> balance += deposit();
             case 3 -> System.out.println("WITHDRAW");
             case 4 -> isRunning = false;
             default -> System.out.println("Invalid choice");
@@ -49,11 +49,24 @@ public class f016_activity {
         System.out.printf("Balance: $%,.2f\n", balance);
 
     }
+
     static double deposit(){
 
         double amount;
 
-        return 0;
+        System.out.print("Enter an amount to deposit: ");
+        amount = scan.nextDouble();
+
+        if(amount < 0){
+
+            System.out.println("Amount can't be negative");
+            return 0;
+
+        }else{
+
+            return amount;
+
+        }
 
     }
 }
