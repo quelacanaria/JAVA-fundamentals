@@ -40,6 +40,11 @@ public class f016_activity {
 
     }while(isRunning);
 
+    System.out.println("***************");
+    System.out.println("Thank you have \na nice day");
+    System.out.println("***************");
+
+    scan.close();
     }
 
     static void showBalance(double balance){
