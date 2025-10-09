@@ -1,6 +1,6 @@
 package quelacanaria;
-
-public class f023_2darray {
+//f020
+public class f024_2darray {
     //2d arrray where each element is an array usefull for
     //storing a matrix of data
     public static void main(String[] args) {
@@ -15,13 +15,13 @@ public class f023_2darray {
                                 {"potato", "onion", "carrot"}, //row 1
                                 {"chicken", "pork", "beef", "fish"}}; //row3
               //row  col
-        groceries[0][0] = "mango";
+        groceries[0][1] = "mango";
 
         for(String[] foods : groceries){
 
             for(String food : foods){
 
-                System.out.println(food);
+                System.out.print(food + " ");
 
             }
             System.out.println();
