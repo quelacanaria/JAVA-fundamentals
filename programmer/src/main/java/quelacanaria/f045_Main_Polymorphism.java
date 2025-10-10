@@ -3,7 +3,7 @@ package quelacanaria;
 //              "MORPH" = "SHAPE"
 //              Object can identify as other objects
 //              Object can be treated as objects of a common superclass
-public class f045_Main {
+public class f045_Main_Polymorphism {
     public static void main(String[] args) {
 
         f045_Car car = new f045_Car();

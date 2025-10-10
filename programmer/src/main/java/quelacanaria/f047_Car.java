@@ -1,5 +1,7 @@
 package quelacanaria;
-
+//They help protect the object data and add rules for accessing or modifying them.
+// GETTERS = Methods that make a field READABLE
+// SETTERS = Methods that make a field WRITEABLE
 public class f047_Car {
 
     //Final Once a value is assigned to this variable, it cannot be changed (reassigned).

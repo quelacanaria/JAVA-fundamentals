@@ -2,7 +2,7 @@ package quelacanaria;
 //Interface = A blueprint for a class that sppecifies a set of abstract methods
 //that implementing classes MUST define. Supports multiple inheritance-like
 //behavior.
-public class f044_Main {
+public class f044_Main_Interface {
     public static void main(String[] args) {
 
     f044_Rabbit rabbit = new f044_Rabbit();

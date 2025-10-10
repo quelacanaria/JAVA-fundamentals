@@ -1,7 +1,7 @@
 package quelacanaria;
 
 public class f029_User {
-        //Overloaded Constractors allow a class to have multiple constructors with
+        //Overloaded Constructors allow a class to have multiple constructors with
         //different parameter list. Enable objects to be initialized
         //in various ways.
 

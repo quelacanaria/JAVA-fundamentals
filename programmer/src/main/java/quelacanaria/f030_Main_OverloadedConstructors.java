@@ -1,6 +1,6 @@
 package quelacanaria;
 
-public class f030_Main {
+public class f030_Main_OverloadedConstructors {
 
     public static void main(String[] args) {
 
