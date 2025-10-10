@@ -6,9 +6,29 @@ public class f027_MainConstructors {
 
     public static void main(String[] args) {
 
-        f028_StudentsConstructor F028_StudentsConstructor1 = new f028_StudentsConstructor("Ichigo", 23, 1.25);
+        f028_StudentsConstructor student1 = new f028_StudentsConstructor("Ichigo", 23, 1.25);
+        f028_StudentsConstructor student2 = new f028_StudentsConstructor("Sakuragi", 23, 2.50);
+        f028_StudentsConstructor student3 = new f028_StudentsConstructor("Naruto", 20, 3.00);
 
-        f028_StudentsConstructor F028_StudentsConstructor2 = new f028_StudentsConstructor();
 
+        System.out.println(student1.name);
+        System.out.println(student1.age);
+        System.out.println(student1.gpa);
+        System.out.println(student1.isEnrolled);
+
+        System.out.println(student2.name);
+        System.out.println(student2.age);
+        System.out.println(student2.gpa);
+        System.out.println(student2.isEnrolled);
+
+        System.out.println(student3.name);
+        System.out.println(student3.age);
+        System.out.println(student3.gpa);
+        System.out.println(student3.gpa);
+        System.out.println(student3.isEnrolled);
+
+        student1.study();
+        student2.study();
+        student3.study();
     }
 }
