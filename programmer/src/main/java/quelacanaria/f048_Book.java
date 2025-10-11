@@ -1,5 +1,7 @@
 package quelacanaria;
-
+//Aggregation represent a "has a" relationship between objects. One object
+//contains another object as part of its, structure, but the contained objects can
+//exist independently
 public class f048_Book {
 
     String title;

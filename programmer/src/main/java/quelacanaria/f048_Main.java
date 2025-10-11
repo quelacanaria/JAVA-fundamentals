@@ -14,7 +14,7 @@ public class f048_Main {
 
         f048_Library library = new f048_Library("NYC Public Library", 1987, books);
 
-        System.out.println(book2.displayInfo());
+        library.displayInfo();
 
     }
 }
