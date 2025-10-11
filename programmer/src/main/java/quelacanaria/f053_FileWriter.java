@@ -14,7 +14,7 @@ public class f053_FileWriter {
 
 
 
-        try(FileWriter writer = new FileWriter("test.docs")){
+        try(FileWriter writer = new FileWriter("test.xlsx")){
             writer.write("File has written");
             System.out.println("File has written");
         } catch (IOException e) {
